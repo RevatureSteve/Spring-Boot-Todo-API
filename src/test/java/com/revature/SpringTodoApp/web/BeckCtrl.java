@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BeckCtrl {
 
 	@RequestMapping("/beck")
-	public String steve() {
+	public String beck() {
 		System.out.println("BeckCtrl: AHHHHHHHHHHHHHHHHHHHHHH");
 		return "OOOHHHHHH";
 	}
