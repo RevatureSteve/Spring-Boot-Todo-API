@@ -9,7 +9,7 @@ public class HumphreyCtrl {
 	@RequestMapping("/humphrey")
 		public String humphrey() {
 		System.out.println("HumphreyCtrl: humphreyHello");
-		return "Hello World -humphrey";
+		return "Hello World -from humphrey";
 	}
 
 }
